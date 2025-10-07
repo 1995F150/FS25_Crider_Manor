@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modDesc descVersion="90">
+    <author>Jessie Crider (CriderGPT)</author>
+    <version>1.0.0.0</version>
+
+    <!-- Mod Info -->
+    <title>Crider Manor</title>
+    <description>
+        A grand southern-style manor built by Jessie Crider. Includes porch, pillars, and a functional sleep trigger for FS25.
+    </description>
+
+    <!-- Mod Icon -->
+    <iconFilename>store.dds</iconFilename>
+
+    <!-- Multiplayer -->
+    <multiplayer supported="true"/>
+
+    <!-- Category -->
+    <category>farmhouses</category>
+
+    <!-- Scripts & File Links -->
+    <extraSourceFiles>
+        <sourceFile filename="maps/placeable.xml"/>
+    </extraSourceFiles>
+
+    <!-- Store Listing -->
+    <storeItems>
+        <storeItem xmlFilename="maps/placeable.xml"/>
+    </storeItems>
+
+    <!-- Localization -->
+    <l10n>
+        <text name="mod_title">Crider Manor</text>
+        <text name="mod_description">A stately plantation-style home designed for Farming Simulator 25.</text>
+    </l10n>
+</modDesc>
