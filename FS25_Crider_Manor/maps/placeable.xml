@@ -1,0 +1,33 @@
+<placeable>
+    <storeData>
+        <name>Crider Manor</name>
+        <specs>Residential Property, Sleep Trigger</specs>
+        <price>250000</price> <!-- 💰 Purchase price -->
+        <image>../store.dds</image>
+        <category>farmhouses</category>
+        <brand>CriderGPT</brand>
+        <showInStore>true</showInStore>
+    </storeData>
+
+    <!-- Link to your 3D model -->
+    <filename>../Crider_Manor.i3d</filename>
+
+    <!-- Enable sleep interaction -->
+    <sleepTrigger isEnabled="true" interactionRadius="4"/>
+
+    <!-- Placement behavior -->
+    <placement>
+        <useWorldXZRotation>true</useWorldXZRotation>
+        <useRandomRotation>false</useRandomRotation>
+        <isFarmHouse>true</isFarmHouse>
+    </placement>
+
+    <!-- Basic collision setup -->
+    <collisions active="true"/>
+
+    <!-- Optional: add visual marker for the sleep area -->
+    <marker>
+        <type>sleepTrigger</type>
+        <position x="0" y="0" z="2"/> <!-- adjust this later if needed -->
+    </marker>
+</placeable>
