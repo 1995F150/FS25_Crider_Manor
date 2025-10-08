@@ -1,0 +1,6 @@
+v1.0.0.0 (October 2025)
+- Initial release of FS25 Crider Manor
+- Fully functional farmhouse with sleep trigger
+- Includes high-detail RDR2-style manor conversion
+- Works on PC and console
+- Designed and published by Jessie Crider (CriderGPT)
